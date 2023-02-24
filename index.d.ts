@@ -83,7 +83,7 @@ export interface PickerSelectProps {
     pickerProps?: CustomPickerProps;
     touchableDoneProps?: CustomTouchableDoneProps;
     touchableWrapperProps?: CustomTouchableWrapperProps;
-    Icon?: React.ReactNode;
+    Icon?: () => JSX.Element;
     InputAccessoryView?: React.ReactNode;
 }
 
